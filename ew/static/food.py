@@ -2039,6 +2039,16 @@ food_list = [
     ),
 ]
 
+ EwFood(
+        id_food = "cannedtomatosoup",
+        alias = ['Tomato', 'Soup', 'Tomatosoup', 'Cannedsoup', 'Pate'],
+        recover_hunger = 450,
+        price = 550,
+        str_name = "Canned Tomato Soup",
+        vendors = ['saloon'],
+        str_eat = "You swiftly crack open the can with a nearby Knife. Holding it high above your head you let the cool tomato soup soup fall slide down your throat. You gulp it down with a satisfying Ahh... you could go for another.",
+        str_desc = "Its a fucking can of tomato soup, what more could you want?!..Ok ill give you more. One canned can of tomato soup. The can is old and rusty, the red label on it worn and faded. If you look hard enough you can see that the lable still says Friskies Paté.",
+        time_expir = 3628800,
 # A map of id_food to EwFood objects.
 food_map = {}
 
